@@ -1,0 +1,43 @@
+[
+    {
+        "rule_name": "Master",
+        "constraints": {
+            "check_approved_phones": true
+        }
+    },
+    {
+        "rule_name": "Income",
+        "constraints": {
+            "minimum_salary": 100000
+        }
+    },
+    {
+        "rule_name": "NoOfCreditCards",
+        "constraints": {
+            "max_credit_card_allowed": 3
+        }
+    },
+    {
+        "rule_name": "Age",
+        "constraints": {
+            "min_age_allowed": 18
+        }
+    },
+    {
+        "rule_name": "PoliticallyExposed",
+        "constraints": {
+            "is_pp_exposed": false
+        }
+    },
+    {
+        "rule_name": "PhoneLocation",
+        "constraints": {
+            "allowed_area_codes": [
+                "0",
+                "2",
+                "5",
+                "8"
+            ]
+        }
+    }
+]

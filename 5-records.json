@@ -1,0 +1,39 @@
+[
+  {
+    "income": 82428,
+    "number_of_credit_cards": 3,
+    "age": 9,
+    "politically_exposed": true,
+    "job_industry_code": "2-930 - Exterior Plants",
+    "phone_number": "486-356-0375"
+  },
+  {
+    "income": 434120,
+    "number_of_credit_cards": 9,
+    "age": 74,
+    "politically_exposed": true,
+    "phone_number": "693-572-9000"
+  },
+  {
+    "income": 401203,
+    "number_of_credit_cards": 3,
+    "age": 19,
+    "politically_exposed": true,
+    "job_industry_code": "1-000 - Purpose",
+    "phone_number": "206-324-0507"
+  },
+  {
+    "income": 327964,
+    "age": 50,
+    "politically_exposed": false,
+    "job_industry_code": "3 - Concrete",
+    "phone_number": "813-342-6986"
+  },
+  {
+    "income": 268071,
+    "number_of_credit_cards": 3,
+    "politically_exposed": true,
+    "job_industry_code": "2-260 - Excavation Support and Protection",
+    "phone_number": "882-211-8960"
+  }
+]
