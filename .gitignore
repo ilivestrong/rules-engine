@@ -15,8 +15,6 @@
 # #######
 # General
 
-# Environment
-**/.env
 
 # Secrets (used by https://github.com/nektos/act for example)
 **/.secrets
@@ -317,7 +315,6 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
 .venv
 env/
 venv/
