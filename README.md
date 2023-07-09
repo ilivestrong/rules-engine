@@ -1,41 +1,14 @@
-# Honest Backend Engineer Technical Assessment
+# Credit Card Rules Engine in Go
 
 >
-> 🤓 This repository contains a technical assessment to be used by candidates for the Backend Engineer position at Honest.
+> 🤓 This repository is my journey into DevOps including deployments on K8s.
 >
 
-## Objective
-
-Welcome to Honest, and thank you for taking the time to take part in our recruitment process. We're working hard to make
-this a transparent, inclusive and positive process that lets everyone be their best (and have fun!) If you have any questions
-or concerns please don't hesitate to raise them with your interviewers, who will be more than happy to help 🙂
-
-For more information about our recruitment process please see our public [Honest Engineering Recruitment Process](https://www.notion.so/honestbank/Honest-Engineering-Recruitment-Process-0ddc3af604c14c6eba20399374edfd47)
-page.
-
-### Disclaimer
-
-The scenario below is entirely fictitious and any resemblance to characters real or imaginary is purely coincidental. Please
-don't sue us!
-
-We will not use your code submission for any purpose other than evaluating your fit for our team. No engineers were 
-harmed during the creation of this technical assessment ✌️.
-
-## Assessment
-
-### Background
-
-An engineer on our team started work on a Decision Engine to approve/decline credit card applicants. However, they have
-been unable to complete the project. Your task is to help complete the project, and improve the overall code quality as
-you see fit.
-
----
 
 ### Requirements
 
-Your task is to add rules as specified
-and have the engine return "approved" or "declined" for the data provided. The engine should be able to be triggered by
-a POST request and must handle errors gracefully.
+This repo is a simple implementation of a Go HTTP server, which processes a credit card application and based on 
+rules mentioned below, declines or approves it.
 
 1. Implement a `POST` HTTP endpoint that:
 
@@ -115,21 +88,3 @@ The application is approved if it evaluates as `true` on the following rules:
 #### External Data Sources
 
 Values for the `credit_risk_score` field can be retrieved by calling the existing functions in the provided `risk` module.
-
-## Evaluation Criteria
-
-1. Problem Understanding
-1. Problem Solving
-1. Testing
-1. Effective Architecture/Design
-
-## Submission Instructions
-
-* Create a new branch, check it out and add commits to that branch.
-* Once you're done with the assessment create a patch onto `main` - to do this, run the following command:
-
-  ```shell
-  > git format-patch main
-  ```
-
-* The above command will produce some `.patch` files, simply archive them (ZIP, RAR, tarballs are all accepted).
